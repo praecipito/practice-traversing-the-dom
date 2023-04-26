@@ -2,7 +2,7 @@
 const list = document.querySelector('.list');
 
 // 1: Store the first child of the `ul` in the variable `firstItem`
-const firstItem;
+const firstItem = list.children[0];
 firstItem.style.backgroundColor = '#04c5e6';
 
 // 2: Using traversal, store the second list item in a variable named `nextItem`
@@ -28,9 +28,3 @@ wrapper.style.backgroundColor = '#fcfcfc';
 // 7: Using traversal, store the body in a variable named `body`
 
 body.style.backgroundColor = '#f8fdf3';
-
-
-
-
-
-

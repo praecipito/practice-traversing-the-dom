@@ -26,5 +26,5 @@ const wrapper = list.parentElement;
 wrapper.style.backgroundColor = '#fcfcfc';
 
 // 7: Using traversal, store the body in a variable named `body`
-
+const body = wrapper.parentElement;
 body.style.backgroundColor = '#f8fdf3';

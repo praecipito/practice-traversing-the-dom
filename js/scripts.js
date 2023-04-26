@@ -18,7 +18,7 @@ const prevItem = lastItem.previousElementSibling;
 prevItem.style.backgroundColor = '#f36f49';
 
 // 5: Store the nested div in a variable named `banner`
-
+const banner = list.previousElementSibling;
 banner.className = 'banner';
 
 // 6: Using traversal, store the wrapper div in a variable named `wrapper`

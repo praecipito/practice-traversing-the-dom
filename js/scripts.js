@@ -22,7 +22,7 @@ const banner = list.previousElementSibling;
 banner.className = 'banner';
 
 // 6: Using traversal, store the wrapper div in a variable named `wrapper`
-
+const wrapper = list.parentElement;
 wrapper.style.backgroundColor = '#fcfcfc';
 
 // 7: Using traversal, store the body in a variable named `body`

@@ -6,7 +6,7 @@ const firstItem = list.children[0];
 firstItem.style.backgroundColor = '#04c5e6';
 
 // 2: Using traversal, store the second list item in a variable named `nextItem`
-
+const nextItem = firstItem.nextElementSibling;
 nextItem.style.backgroundColor = '#b7c7d0';
 
 // 3: Store the last child of the `ul` in a variable named `lastItem`
